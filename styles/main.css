@@ -1,0 +1,181 @@
+body{
+  font-family: Verdana, helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #8c0000;
+  color: white;
+  margin: -8px 0px;
+}
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+header{
+  width: 100%;
+}
+div.home_header{
+  height: 800px;
+  background: url("../images/valorosa_background.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+}
+.headergradientlayer{
+  width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(140,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(140,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.) 0%, rgba(140,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.) 0%, rgba(140,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(140,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(140,0,0,1) 100%)
+}
+img.main_logo {
+  width:        275px;
+  height:       275px;
+  float: right;
+  margin-right: 7%;
+  margin-top:   5%;
+}
+ul{
+  list-style-type: none;
+}
+ul.menu{
+  margin-top:        8px;
+  background-color: #000;
+  padding-top:      15px;
+  padding-left:     12%;
+  padding-bottom:   15px;
+}
+ul a{
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+ul a:hover{
+  color: red;
+}
+li .menu_item{
+  display: block;
+}
+ul li.menu_item{
+  display: inline;
+}
+li a:hover{
+  background-color: #121212;
+}
+div.table{
+  display: table;
+  border-spacing: 10px;
+  margin-left:    9.5%;
+  margin-right:   6.5%;
+  margin-top:     -22%;
+  margin-bottom:  5%;
+}
+div.row{
+  display: table-row;
+}
+.cellA, .cellB{
+  display: table-cell;
+}
+div.cellA{
+  font-size: 18px;
+  width: 760px;
+}
+h1{
+  color: white;
+  font-size: 48px;
+}
+article{
+  text-align: justify;
+  margin-top: -27px;
+}
+.agenda, .galeria{
+  background: black;
+  height: 340px;
+  width:  300px;
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+}
+.agenda{
+  margin-bottom: 20px;
+}
+.galeria{
+  height: 340px;
+}
+div.hiddenblock{
+  height: 75px;
+  width: 300px;
+  visibility: hidden;
+}
+.presentation{
+  color: black;
+  padding: 15px;
+  padding-top: 0px;
+}
+.historiabanner, .contatobanner{
+  margin: 15px;
+  margin-top: 32px;
+  background: black;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+}
+.historiabanner a, .contatobanner a{
+  text-decoration: none;
+  color: white;
+}
+.contatobanner{
+  float: right;
+}
+.roll-img {
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+  border: 10px solid black;
+}
+.roll-img{
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+.roll_img img:hover{
+  margin-top: -200px;
+}
+footer{
+  background: black;
+  color: white;
+  padding-top:    20px;
+  padding-bottom: 14%;
+  margin-bottom:  0px;
+}
+div.marca{
+  margin-left: 11%;
+}
+div.social{
+  text-align: right;
+  float: right;
+  margin-right: 9%;
+}
+h4 .social{
+}
+.social a{
+  text-decoration: none;
+  color: white;
+}
+.social a:hover{
+  color: #ddd;
+}
+.fb-icon, .istg-icon{
+  height: 22px;
+  width: auto;
+}
+.yt-icon{
+  height: 18px;
+  width: auto;
+}
