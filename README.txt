@@ -1,6 +1,6 @@
 Site Valoroso - READ ME -
 
-O que você tem em mãos aqui é o belíssimo site da bateria valorosa. Este é um projeto que eu, Escada, comecei nas férias por falta
+Este é um projeto que eu, comecei nas férias por falta
 do que fazer, e aproveitando que a bateria ainda não tinha site eu aproveitei pra aprender algumas coisinhas fazendo, por isso nem
 tudo aqui tem o primor que mesmo eu gostaria de tivesse.
 
